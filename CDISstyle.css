@@ -1,9 +1,9 @@
 
     body{
       font-family: Microsoft JhengHei;
-    background-image: url(../dbhw/DISgrass50.png),
-                      url(../dbhw/DISbtfy50.png),
-                      url(../dbhw/DISCchild50.png);
+    background-image: url(../DISgrass50.png),
+                      url(../DISbtfy50.png),
+                      url(../DISCchild50.png);
     background-repeat: no-repeat,no-repeat,no-repeat;
     background-attachment: fixed,fixed,fixed;
     background-position: right bottom,right top,left bottom;
