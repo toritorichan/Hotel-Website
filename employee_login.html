@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>員工登入</title>
+  </head>
+  <body>
+<div id="navigation" class="slide-right" style="position: absolute; top: 100px; left:0px;">
+        <h2 align="center"><font color= #FF7575 >目錄</font></h2>
+    <ul class="sidebar-nav">
+        <li class="borderFade"><a href="entrance.html">回首頁</a></li>
+        <li class="borderFade"><a href="room_introduction.html">房型介紹</a></li>
+        <li class="borderFade"><a href="room_register.html">訪客註冊</a></li>
+        <li class="borderFade"><a href="room_login.html">客人登入</a></li>
+        <li class="borderFade"><a href="employee_login.html">員工登入</a></li>
+        <li class="borderFade"><a href="logout.php">帳號登出</a></li>
+    </ul></div>
+
+  <div class="slide-right" style="width:225px;height:210px;border:0px white dashed;position: absolute; bottom: 270px; right:380px;">
+    <div style="position: absolute; bottom: 50px; top:80px; left:6px;">
+    <form name="login" action="employee_display.php" method="post">
+      <table align="center" bgcolor="transparent" class="table" >
+        <tr>
+          <td><font size="2" ><font color="red";>*</font>員工ID:</font></td>
+        </tr><tr>
+          <td width="100%"><input type="text" name="employeeID"  required><span></span></td>
+        </tr>
+         <tr>
+          <td><font size="2" ><font color="red";>*</font>密碼:</font></td>
+        </tr><tr>
+        <tr>
+          <td width="100%"><input type="password" name="password" required><span></span></td>
+        </tr>
+        <td></td>
+        <tr>
+          <td colspan="2" ><div align="right"><button><input type="submit" value="員工登入"></button></div></td>
+        </tr>
+      </table>
+    </form></div></div>
+  </body>
+</html>

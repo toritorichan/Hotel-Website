@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <link rel="stylesheet" href="CDISstyle.css">
+    <meta charset="UTF-8">
+    <title>訪客註冊</title>
+  </head>
+  <style>
+      
+  </style>
+  <body>
+
+<div id="navigation" class="slide-right" style="position: absolute; top: 100px; left:0px;">
+        <h2 align="center"><font color= #FF7575 >目錄</font></h2>
+    <ul class="sidebar-nav">
+        <li class="borderFade"><a href="entrance.html">回首頁</a></li>
+        <li class="borderFade"><a href="room_introduction.html">房型介紹</a></li>
+        <li class="borderFade"><a href="room_register.html">訪客註冊</a></li>
+        <li class="borderFade"><a href="room_login.html">客人登入</a></li>
+        <li class="borderFade"><a href="employee_login.html">員工登入</a></li>
+        <li class="borderFade"><a href="logout.php">帳號登出</a></li>
+    </ul></div>
+ 
+
+  <div class="slide-right" style="width:225px;height:210px;border:0px white dashed;position: absolute; top: 0px; right:450px;">
+    <div style="position: absolute; bottom: 50px; top:80px; left:6px;">   
+    <form name="login" action="room_register.php" method="post">
+      <table align="center" bgcolor="transparent" class="table" >
+            <tr>
+                <td><font size="2"><span style="color:red">*</span>Email(帳號):</font></td></tr><tr>
+                <td><input type="text" name="email" size="30" required/></td>
+            </tr>
+            <tr>
+                <td><font size="2"><span style="color:red">*</span>密碼:</font></td></tr><tr>
+                <td><input type="password" name="password" size="15" required/></td>
+            </tr>
+            <tr>
+                <td><font size="2"><span style="color:red">*</span>姓名:</font></td></tr><tr>
+                <td><input type="text" name="name" size="15" required/></td>
+            </tr>
+            <tr>
+                <td><font size="2"><span style="color:red">*</span>生日:</font></td></tr><tr>
+                <td><input type="date" name="birth" size="15" required/></td>
+            </tr>
+            <tr>
+                <td><font size="2"><span style="color:red">*</span>性別:</font></td></tr><tr>
+                <td><input type="radio" name="sex" value="male" required/>男
+                
+                <input type="radio" name="sex" value="female"/>女</td>
+            </tr>
+            <tr>
+                <td><font size="2"><span style="color:red">*</span>住址:</font></td></tr><tr>
+                <td><input type="text" name="address" size="50" required/></td>
+            </tr>
+            <tr>
+                <td><font size="2"><span style="color:red">*</span>電話:</font></td></tr><tr>
+                <td><input type="text" name="phone" size="15" required/></td>
+            </tr>
+            <tr>
+                <td><font size="2"><span style="color:red">*</span>緊急聯絡人姓名:</font></td></tr><tr>
+                <td><input type="text" name="contact_name" size="15" required/></td>
+            </tr>
+            <tr>
+                <td><font size="2"><span style="color:red">*</span>緊急聯絡人電話:</font></td></tr><tr>
+                <td><input type="text" name="contact_phone" size="15" required/></td>
+            </tr>
+            <tr>
+                <td colspan="2" ><div align="right"><button><input type="submit" value="註冊"/></button></div></td>
+            </tr>
+        
+      </table>
+    </form></div></div>
+  </body>
+</html>

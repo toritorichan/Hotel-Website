@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>臭格里拉-最懂你的Hotel</title>
+  </head>
+  <body>
+  <style type="text/css">
+
+    a{
+    color: #ffffff;
+    font-size: 18px;
+    font-family: Microsoft JhengHei;
+    text-decoration:none;
+    }
+    a:hover{
+
+    color: hsl(351, 100%, 86%);
+
+    }
+
+    .magnifyBtn {
+    padding: 18px 18px;
+    background-color: hsl(351, 100%, 86%);
+    opacity: 0.65;
+    border-radius: 6px;
+    transition: transform 250ms ease-in-out;
+    }
+
+    .magnifyBtn:hover {
+    transform: scale(1.2);
+    opacity: 0.6;
+    background-color:hsl(54, 100%, 90%);
+    }
+
+    .magnifyBtn:active {
+    transform: scale(0.9);
+    opacity: 0.6;
+    background-color:hsl(54, 100%, 90%);
+    }
+
+    #htmlend{
+	color: hsl(351, 100%, 86%);
+    font-size: 13px;
+}
+.borderLeftRight {
+    display: inline-block;
+    position: relative;
+    color: 	#FFE66F;
+  }
+  
+  .borderLeftRight::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: 	#FFE66F;
+    transform-origin: bottom right;
+    transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  
+  .borderLeftRight:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  .slide-left {
+	-webkit-animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) forwards;
+	        animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) forwards;
+}
+
+
+@-webkit-keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+  }
+}
+@keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+  }
+}
+
+    body {
+    background-image: url(../dbhw/bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 80%;
+        }
+  </style>
+
+  <div class="slide-left" style="width:225px;height:210px;border:0px; position: absolute; bottom: 220px; right:195px;">
+    <div style="position: absolute; bottom: 50px; top:80px; left:6px;">
+		<h3 class="magnifyBtn"><a href="room_register.html">註冊房客帳號</a></h3>
+		<h3 class="magnifyBtn" align="center"><a href="employee_login.html">員工登入</a></h3>
+  	</div></div>
+
+   <div class="slide-left" style="width:225px;height:210px;border:0px; position: absolute; bottom: 220px; right:30px;">
+    <div style="position: absolute; bottom: 50px; top:80px; left:6px;">
+		<h3 class="magnifyBtn"><a href="room_login.html">登入房客帳號</a></h3>
+		<h3 class="magnifyBtn" align="center"><a href="room_introduction.html">房型介紹</a></h3>
+	</div></div>
+
+	<div class="borderLeftRight" id="htmlend" style="bottom:25px; right:5px;  position: absolute;" >♥ 聯絡我們：StinkyGorila@sexymail.com ♥ 電話傳真：(06)0487087 ♥</div>
+ 	<div class="borderLeftRight" id="htmlend" style="bottom:5px; right:5px;  position: absolute;" >♥ 最佳瀏覽環境：IE. 7.0以上/Firefox 3.x/Chrome 4以上/Safari 4以上Stinky Gorila All rights Reserved. ♥</div>
+  </body>
+</html>
