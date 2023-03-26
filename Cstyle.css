@@ -2,7 +2,7 @@
     body{
       font-family: Microsoft JhengHei;
     background-image: url(media/grass50.png),
-                      url(media/btfy50.png),url(../dbhw/Cchild50.png);
+                      url(media/btfy50.png),url(media/Cchild50.png);
     background-repeat: no-repeat,no-repeat,no-repeat;
     background-attachment: fixed,fixed,fixed;
     background-position: right bottom,right top,left bottom;
